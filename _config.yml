@@ -23,7 +23,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: var/hexo-www
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -126,9 +126,9 @@ theme: paper
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repo:
-    github:
-      url: git@github.com:TJKkking/hexo-blog.git
-      branch: master
+# deploy:
+#   type: 'git'
+#   repo:
+#     github:
+#       url: git@github.com:TJKkking/hexo-blog.git
+#       branch: master
